@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="CustomControls.Views.FabMenuPage"
+    xmlns:buttonRound="clr-namespace:CustomControls.Controls.ButtonRound"
+    xmlns:views="clr-namespace:CustomControls.Views"
+    xmlns:effects="clr-namespace:CustomControls.Effects">
+    <ContentPage.Content>
+        <AbsoluteLayout
+            VerticalOptions="FillAndExpand">
+            <!--Menu List-->
+            <views:FabMenuView
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds="0,0,1,1"
+                IsVisible="{Binding IsViewMenuShown}">
+            </views:FabMenuView>
+            <!-- Menu button-->
+            <buttonRound:ButtonRound
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="1,1,50,50"
+                BackgroundColor="#db3f0a"
+                TranslationX="-16"
+                TranslationY="-16"
+                CornerRadius="25"
+                Image="fab_menu.png"
+                effects:ViewEffects.HasShadow="true"
+                effects:ViewEffects.ShadowColor="Black"
+                effects:ViewEffects.ShadowOpacity="0.5"
+                effects:ViewEffects.ShadowSize="2"
+                Command="{Binding ToggleViewMenuCommand}">
+                <buttonRound:ButtonRound.Triggers>
+                    <DataTrigger
+                        TargetType="buttonRound:ButtonRound"
+                        Binding="{Binding IsViewMenuShown}"
+                        Value="true">
+                        <Setter
+                            Property="Image"
+                            Value="fab_close.png" />
+                    </DataTrigger>
+                </buttonRound:ButtonRound.Triggers>
+            </buttonRound:ButtonRound>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

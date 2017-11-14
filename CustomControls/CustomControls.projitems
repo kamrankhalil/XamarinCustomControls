@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{DC21B34F-08CB-40F6-B597-2921911A3822}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>CustomControls</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)CustomControlsPage.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Controls\Fab\FabView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\FabMenuPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\FabMenuView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)CustomControlsPage.xaml.cs">
+      <DependentUpon>CustomControlsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\Fab\FabView.xaml.cs">
+      <DependentUpon>FabView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\ButtonRound\ButtonRound.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Effects\RoundedEffect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Effects\ShadowEffect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Effects\ViewEffects.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\MenuListControl\MenuList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\FabMenuPage.xaml.cs">
+      <DependentUpon>FabMenuPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\FabMenuViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\BaseViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\FabMenuView.xaml.cs">
+      <DependentUpon>FabMenuView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\DrawingControls\BubbleShape.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\DrawingControls\CircleShape.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\NotifyPropertyChangedHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\MenuListModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Controls\" />
+    <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Controls\Fab\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Controls\ButtonRound\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Effects\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Controls\MenuListControl\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Controls\DrawingControls\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Helpers\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Models\" />
+  </ItemGroup>
+</Project>

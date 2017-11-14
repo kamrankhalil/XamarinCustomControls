@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{EDD0F081-FE2B-4AF7-BAA7-756E29EEA66B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinCustomControls Status">
+    <Files>
+      <File FileName="CustomControls/CustomControlsPage.xaml" Line="12" Column="1" />
+      <File FileName="CustomControls/Controls/Fab/FabView.xaml" Line="19" Column="15" />
+      <File FileName="CustomControls/Controls/Fab/FabView.xaml.cs" Line="19" Column="45" />
+      <File FileName="CustomControls/CustomControlsPage.xaml.cs" Line="3" Column="25" />
+      <File FileName="CustomControls/Controls/ButtonRound/ButtonRound.cs" Line="14" Column="54" />
+      <File FileName="CustomControls/Effects/RoundedEffect.cs" Line="7" Column="48" />
+      <File FileName="CustomControls/Effects/ShadowEffect.cs" Line="7" Column="47" />
+      <File FileName="CustomControls/Effects/ViewEffects.cs" Line="1" Column="19" />
+      <File FileName="iOS/Effects/ShadowEffect.cs" Line="42" Column="9" />
+      <File FileName="Droid/Effects/ShadowEffect.cs" Line="25" Column="39" />
+      <File FileName="Droid/Effects/RoundedEffect.cs" Line="7" Column="65" />
+      <File FileName="CustomControls/Controls/MenuListControl/MenuList.cs" Line="30" Column="55" />
+      <File FileName="CustomControls/Views/FabMenuPage.xaml" Line="45" Column="15" />
+      <File FileName="CustomControls/Views/FabMenuPage.xaml.cs" Line="18" Column="45" />
+      <File FileName="CustomControls/App.xaml.cs" Line="2" Column="27" />
+      <File FileName="iOS/obj/iPhoneSimulator/Debug/CustomControls.iOS.Views.FabMenuPage.xaml.g.cs" Line="20" Column="1" />
+      <File FileName="iOS/CustomRenderers/ButtonRoundControl/ButtonRoundRenderer.cs" Line="2" Column="42" />
+      <File FileName="CustomControls/ViewModels/FabMenuViewModel.cs" Line="60" Column="1" />
+      <File FileName="CustomControls/ViewModels/BaseViewModel.cs" Line="50" Column="37" />
+      <File FileName="CustomControls/Views/FabMenuView.xaml" Line="92" Column="15" />
+      <File FileName="CustomControls/Views/FabMenuView.xaml.cs" Line="26" Column="39" />
+      <File FileName="CustomControls/Controls/DrawingControls/BubbleShape.cs" Line="15" Column="9" />
+      <File FileName="CustomControls/Controls/DrawingControls/CircleShape.cs" Line="14" Column="50" />
+      <File FileName="iOS/CustomRenderers/DrawingControls/CircleShapeRenderer.cs" Line="8" Column="34" />
+      <File FileName="iOS/CustomRenderers/DrawingControls/BubbleShapeRenderer.cs" Line="188" Column="1" />
+      <File FileName="CustomControls/Helpers/NotifyPropertyChangedHelper.cs" Line="4" Column="11" />
+      <File FileName="CustomControls/Models/MenuListModel.cs" Line="14" Column="25" />
+      <File FileName="XamarinCustomControls Status" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CustomControls.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.EACC4F1E-9CF0-4317-A51F-FF853E5D2CCD">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.CustomControls.iOS>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/kamrankhalil/Documents/Projects/XamarinCustomControls/CustomControls/Views/FabMenuView.xaml.cs" relfile="CustomControls/Views/FabMenuView.xaml.cs" line="26" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

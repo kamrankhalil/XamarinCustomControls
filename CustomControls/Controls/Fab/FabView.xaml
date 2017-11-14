@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CustomControls.Controls.Fab.FabView"
+             xmlns:buttonRound="clr-namespace:CustomControls.Controls.ButtonRound"
+             xmlns:effects="clr-namespace:CustomControls.Effects">
+  <ContentView.Content>
+        <buttonRound:ButtonRound 
+            x:Name="FabButton"
+            Style="{StaticResource BlueButtonStyle}"
+            WidthRequest="50"
+            HeightRequest="50"
+            CornerRadius="25"      
+            effects:ViewEffects.HasShadow="true"
+            effects:ViewEffects.ShadowColor="Black"
+            effects:ViewEffects.ShadowOpacity="0.5"
+            effects:ViewEffects.ShadowSize="2"/>
+    </ContentView.Content>
+</ContentView>
