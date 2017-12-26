@@ -6,8 +6,7 @@
     xmlns:local="clr-namespace:CustomControls"
     xmlns:buttonRound="clr-namespace:CustomControls.Controls.ButtonRound"
     xmlns:drawingControls="clr-namespace:CustomControls.Controls.DrawingControls"
-    xmlns:menuList="clr-namespace:CustomControls.Controls.MenuListControl"
-    xmlns:fab="clr-namespace:ProductiveEdge.ThinkTime.Shared.Controls.FabControl">
+    xmlns:menuList="clr-namespace:CustomControls.Controls.MenuListControl">
     <ContentView.Content>
         <AbsoluteLayout
             VerticalOptions="FillAndExpand">
